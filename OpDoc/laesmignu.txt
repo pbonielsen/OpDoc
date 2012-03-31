@@ -1,0 +1,22 @@
+Her er nogle enkelte klasser i halvfaerdig tilstand, som tager hul på kommandolinjen 
+og haandtering af fejl vha exceptions og klassen MyException. Hent filerne ind i et 
+tomt C++ hello world projekt. Opret f.eks. projektet OpDoc som c++ hello world med 
+MinGW som tool chain. Slet derefter opdoc.cpp. Importer saa filerne i undermappen src
+herfra. Koer programmet. Find frem til Run Configuration og (x) = arguments...
+Skriv kommandolinjeparametre i tekstboksen. F.eks.:
+
+-X tekst0.txt tekst0a.dat
+
+Koer programmet igen. Det vil nu slutte med en fejlmeldning: MyException : 1.
+
+Klassen CmdParam tager sig af main parametrene fra kommandolinjen. Kaldet Param i 
+klassediagrammet.
+Klassen MyException bruges til at kaste med fejlsituationer.
+Klassen OpDoc er klassen af samme navn i klassediagrammet, den er bare ikke helt
+faerdig endnu.
+
+Der er i det hele tager en del smaafejl rundt om i koden, men de er ret tydelige;-)
+
+God arbejdslyst!
+
+8mar2012/nis
