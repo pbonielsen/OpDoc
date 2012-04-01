@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 		CmdParam cmd(argc,argv);			// get command line
 		OpDoc od(cmd);
 		od.run();
-		ec = od.returnError();				// we need this later
+		//ec = od.returnError();				// we need this later
 	} catch (MyException *ode) {
 		int error = (*ode).getError();
 		cout << "My exception : " << error << endl;
